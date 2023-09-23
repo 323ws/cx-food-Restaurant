@@ -1,10 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
-:root {
-  --main: #ffd8a9;
-  --highlight: #f1a661;
-  --secondary: #e38b29;
-  --tertiary: #fdeedc;
-}
+
 
 * {
   margin: 0;
@@ -24,6 +19,7 @@ header {
   width: 100%;
   background-color: #228b8b27;
   background: url(./img/home_bg.jpeg);
+  
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
