@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food Lover</title>
+    <!-- Style Link -->
+    <link rel="stylesheet" href="./style.css" />
+    <!-- Fontawsome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="./Untitled.png" />
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/brands.min.css"
+      integrity="sha512-W/zrbCncQnky/EzL+/AYwTtosvrM+YG/V6piQLSe2HuKS6cmbw89kjYkp3tWFn1dkWV7L1ruvJyKbLz73Vlgfg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    /> -->
+    <link
+      rel="stylesheet"
+      href="path/to/font-awesome/css/font-awesome.min.css"
+    />
+  </head>
+
+  <body>
+    <!-- Header Start -->
+    <header id="home">
+      <div class="navbar">
+        <a href="./index.html">
+          <img src="./Untitled.png" alt="" />
+          <h2>cx-food</h2>
+        </a>
+
+        <ul>
+          <li><a href="#home" class="panel active">Home</a></li>
+          <li><a href="#about" class="panel">About</a></li>
+          <li><a href="#offers" class="panel">Offers</a></li>
+          <li><a href="#menu" class="panel">Menu</a></li>
+          <li><a href="#gallery" class="panel">Blog</a></li>
+          <li><a href="#Contact" class="panel">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="container">
+        <h1>Welcome To <span>cx-food</span> Restaurant</h1>
+        <p>Traditional Turkish Delicacies</p>
+        <a href="#" class="but"> Book a Table </a>
+      </div>
+    </header>
+
+    <!-- Header End -->
+    <main>
+      <!-- About Section Start -->
+      <section id="about">
+        <div class="container">
+          <h2>The La Boom history</h2>
+          <p>pLorem ipsum dolor, sit amet sit elit.</p>
+          <div class="text-nad-photo">
+            <div class="text">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                exercitationem nemo dolor tempora molestiae dolores consectetur
+                impedit ipsa sequi nobis necessitatibus iusto laborum animi
+                pariatur, omnis magni mollitia enim, consequuntur delectus
+                beatae vitae! Temporibus expedita suscipit eaque veritatis
+                cumque vel, voluptas repudiandae consequatur ipsa consequuntur
+                cum aspernatur adipisci vero iure! Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. Repudiandae sapiente corrupti
+                laborum adipisci tenetur incidunt rerum! Possimus quia, nemo
+                voluptatem, rem incidunt ducimus hic dolorum in voluptatibus
+                exercitationem delectus doloremque!
+              </p>
+              <a href="#" class="but">Learn More</a>
+            </div>
+            <img src="./img/about_img.png" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <!-- About Section End -->
+
+      <!-- Offers Section Start -->
+      <section id="offers">
+        <div class="container">
+          <h2>Our Special Offers</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+          <div class="all-img-offers">
+            <div class="img-offers">
+              <img src="./img/offer1.png" alt="" />
+              <h4>LQuattro Formaggi</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi,
+                ratione?
+              </p>
+              <div>
+                <del>$ 55.00</del>
+                <span>$ 18.00</span>
+              </div>
+            </div>
+            <div class="img-offers">
+              <img src="./img/offer2.png" alt="" />
+              <h4>LQuattro Formaggi</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi,
+                ratione?
+              </p>
+              <div>
+                <del>$ 55.00</del>
+                <span>$ 18.00</span>
+              </div>
+            </div>
+            <div class="img-offers">
+              <img src="./img/offer3.png" alt="" />
+              <h4>LQuattro Formaggi</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi,
+                ratione?
+              </p>
+              <div>
+                <del>$ 55.00</del>
+                <span>$ 18.00</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Offers Section End -->
+      <!-- Menu Section Start -->
+      <section id="menu">
+        <div class="container">
+          <h2>Our Special Menu</h2>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Lorem
+            ipsum dolor sit amet. Iste explicabo eveniet.
+          </p>
+          <ul class="switcher" id="myBtnContainer">
+            <li class="btn act" onclick="filterSelection('all')">All</li>
+            <li class="btn" onclick="filterSelection('break-fast')">
+              BREAKFAST
+            </li>
+            <li class="btn" onclick="filterSelection('dessert')">DESSERT</li>
+            <li class="btn" onclick="filterSelection('lunch')">LUNCH</li>
+            <li class="btn" onclick="filterSelection('fresh-food')">
+              FRESHFOOD
+            </li>
+          </ul>
+        </div>
+        <div class="menu-list">
+          <div class="one">
+            <div class="break-fast box" data-cat="break-fast">
+              <div class="img1">
+                <img src="./img/food1.png" alt="" />
+                <div class="menu-text">
+                  <div class="name-menu">
+                    <h3>LASAL CHEESE</h3>
+                    <span>$ 28.00</span>
+                  </div>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Tempora, ducimus.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="dessert box" data-cat="dessert">
+              <div class="img1">
+                <img src="./img/food2.png" alt="" />
+                <div class="menu-text">
+                  <div class="name-menu">
+                    <h3>JUMBO CARB SHRIMP</h3>
+                    <span>$ 28.00</span>
+                  </div>
+
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Tempora, ducimus.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="lunch box" data-cat="lunch">
+              <div class="img1">
+                <img src="./img/food3.png" alt="" />
+                <div class="menu-text">
+                  <div class="name-menu">
+                    <h3>SURMAI CHILLI</h3>
+                    <span>$ 28.00</span>
+                  </div>
+
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Tempora, ducimus.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="fresh-food box" data-cat="fresh-food">
+              <div class="img1">
+                <img src="./img/food4.png" alt="" />
+                <div class="menu-text">
+                  <div class="name-menu">
+                    <h3>CAPO STEAK</h3>
+                    <span>$ 28.00</span>
+                  </div>
+
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Tempora, ducimus.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="fresh-food box" data-cat="fresh-food">
+              <div class="img1">
+                <img src="./img/food5.png" alt="" />
+                <div class="menu-text">
+                  <div class="name-menu">
+                    <h3>JUMBO CARB SHRIMP</h3>
+                    <span>$ 28.00</span>
+                  </div>
+
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Tempora, ducimus.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="lunch box" data-cat="lunch">
+              <div class="img1">
+                <img src="./img/food6.png" alt="" />
+                <div class="menu-text">
+                  <div class="name-menu">
+                    <h3>PRAWNS BUTTER GARLIC</h3>
+                    <span>$ 28.00</span>
+                  </div>
+
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Tempora, ducimus.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="two">
+            <div class="break-fast box" data-cat="break-fast">
+              <div class="img1">
+                <img src="./img/food7.jpeg" alt="" />
+                <div class="menu-text">
+                  <div class="name-menu">
+                    <h3>MEAT KOFTA</h3>
+                    <span>$ 28.00</span>
+                  </div>
+
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Tempora, ducimus.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="fresh-food box" data-cat="fresh-food">
+              <div class="img1">
+                <img src="./img/food8.jpeg" alt="" />
+                <div class="menu-text">
+                  <div class="name-menu">
+                    <h3>SPANISH PIES</h3>
+                    <span>$ 28.00</span>
+                  </div>
+
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Tempora, ducimus.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="lunch box" data-cat="lunch">
+              <div class="img1">
+                <img src="./img/food9.jpeg" alt="" />
+                <div class="menu-text">
+                  <div class="name-menu">
+                    <h3>CHEESE TOST</h3>
+                    <span>$ 28.00</span>
+                  </div>
+
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Tempora, ducimus.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="lunch box" data-cat="lunch">
+              <div class="img1">
+                <img src="./img/food10.jpeg" alt="" />
+                <div class="menu-text">
+                  <div class="name-menu">
+                    <h3>FRUIT SALAD</h3>
+                    <span>$ 28.00</span>
+                  </div>
+
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Tempora, ducimus.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="lunch box" data-cat="lunch">
+              <div class="img1">
+                <img src="./img/food11.jpeg" alt="" />
+                <div class="menu-text">
+                  <div class="name-menu">
+                    <h3>CHICKEN SHAWARMA</h3>
+                    <span>$ 28.00</span>
+                  </div>
+
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Tempora, ducimus.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="dessert box" data-cat="dessert">
+              <div class="img1">
+                <img src="./img/food12.jpeg" alt="" />
+                <div class="menu-text">
+                  <div class="name-menu">
+                    <h3>MEGA CHEESE PIZZA</h3>
+                    <span>$ 28.00</span>
+                  </div>
+
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Tempora, ducimus.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br />
+        <div class="container">
+          <a href="#" class="but">EXPLORE FULL MENU</a>
+        </div>
+      </section>
+      <!-- Menu Section End -->
+      <!-- Daytime section start-->
+
+      <section id="daytime">
+        <div class="day-time-text">
+          <img src="./img/breckfastIcon.png" alt="" />
+          <h2>Breakfast</h2>
+          <span> 8.00 am to 10.00 am</span>
+        </div>
+
+        <div class="day-time-text">
+          <img src="./img/lunchIcon.png" alt="" />
+          <h2>Lunch</h2>
+          <span> 4.00 pm to 7.00 pm</span>
+        </div>
+
+        <div class="day-time-text">
+          <img src="./img/dinnerIcon.png" alt="" />
+          <h2>Dinner</h2>
+          <span> 9.00 pm to 1.00 Am</span>
+        </div>
+
+        <div class="day-time-text">
+          <img src="./img/dessertIcon.png" alt="" />
+          <h2>Dessert</h2>
+          <span> All Day</span>
+        </div>
+      </section>
+
+      <!-- Daytime section end-->
+      <!-- gallery Section Start -->
+
+      <section id="gallery">
+        <div class="container">
+          <h2>Feature Blog</h2>
+          <p>Read Latest Delicious Posts And News</p>
+        </div>
+        <div class="cards">
+          <div class="card">
+            <img src="./img/blog1.jpeg" alt="" />
+            <div class="card-content">
+              <div class="title">24 <br />jon</div>
+
+              <ul>
+                <li>
+                  <i class="fa-regular fa-user" style="color: #e38b29"></i> By
+                  Ali TUFAN
+                </li>
+                <li>
+                  <i class="fa-regular fa-comment" style="color: #e38b29"></i>
+                  5 Comments
+                </li>
+              </ul>
+              <h3>Easy Sparkling Sangria</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Consequuntur, atque.
+              </p>
+              <a href="#"
+                >Read More
+                <i
+                  class="fa-solid fa-arrow-right"
+                  style="color: #e38b29; margin-left: 10px"
+                ></i>
+              </a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="./img/blog2.jpeg" alt="" />
+            <div class="card-content">
+              <div class="title">
+                27<br />
+                may
+              </div>
+
+              <ul>
+                <li>
+                  <i class="fa-regular fa-user" style="color: #e38b29"></i> By
+                  Ali TUFAN
+                </li>
+                <li>
+                  <i class="fa-regular fa-comment" style="color: #e38b29"></i>
+                  5 Comments
+                </li>
+              </ul>
+              <h3>Easy Sparkling Sangria</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Consequuntur, atque.
+              </p>
+              <a href="#"
+                >Read More
+                <i
+                  class="fa-solid fa-arrow-right"
+                  style="color: #e38b29; margin-left: 10px"
+                ></i>
+              </a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="./img/blog3.jpeg" alt="" />
+            <div class="card-content">
+              <div class="title">12 <br />sep</div>
+
+              <ul>
+                <li>
+                  <i class="fa-regular fa-user" style="color: #e38b29"></i> By
+                  Ali TUFAN
+                </li>
+                <li>
+                  <i class="fa-regular fa-comment" style="color: #e38b29"></i>
+                  5 Comments
+                </li>
+              </ul>
+              <h3>Easy Sparkling Sangria</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Consequuntur, atque.
+              </p>
+              <a href="#"
+                >Read More
+                <i
+                  class="fa-solid fa-arrow-right"
+                  style="color: #e38b29; margin-left: 10px"
+                ></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Gballary Section End -->
+      <!-- Contact Section Start -->
+      <section id="Contact">
+        <div class="container">
+          <img src="./Untitled.png" alt="" />
+          <h2>cx-food Restaurant</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <p>cx-food@gmail.com</p>
+        </div>
+        <footer>
+          <p>
+            Copyright &copy; 2023 All rights reserved | made by
+            <b>
+              <a href="https://www.instagram.com/cx_.2.1/" target="_blank">
+                cx_.2.1
+              </a>
+            </b>
+          </p>
+          <a
+            href="http://www.instagram.com/cx_.2.1/"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><i
+              class="fa-brands fa-instagram fa-fade"
+              style="color: #e38b29"
+            ></i
+          ></a>
+        </footer>
+      </section>
+
+      <!-- Contact Section End -->
+    </main>
+
+    <script src="./js.js"></script>
+  </body>
+</html>
