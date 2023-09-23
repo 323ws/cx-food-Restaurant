@@ -23,7 +23,7 @@ body {
 header {
   width: 100%;
   background-color: #228b8b27;
-  background: url(./img/home_bg.jpeg);
+  background: url(./img/home_bg.jpeg)
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
